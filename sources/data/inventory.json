@@ -4,33 +4,8 @@
         "type": "Electric",
         "maker": "Squier",
         "model": "Squier Bullet Stratocaster",
-        "name" : "Squier Bullet Stratocaster SSS Electric Guitar with Tremolo Sea Foam Green",
-        "specs": `Body Material: Basswood
-Body Finish: Polyurethane
-Body Shape: Stratocaster
-Neck Material: Rosewood
-Neck Finish: Polyurethane
-Neck Shape: C Shape
-Scale Length: 25.5 inches (648 mm)
-Fingerboard: Maple
-Fingerboard Radius: 9.5 inches (241 mm)
-Number of Frets: 21
-Fret Size: Medium Jumbo
-String Nut: Synthetic Bone
-Nut Width: 1.650 inches (42 mm)
-Position Inlays: Black Dot
-Neck Plate: 4-Bolt Standard
-Bridge Pickup: Standard Single-Coil Strat
-Middle Pickup: Standard Single-Coil Strat
-Neck Pickup: Standard Single-Coil Strat
-Controls: Master Volume, Tone 1 (Neck Pickup), Tone 2 (Middle Pickup)
-Pickup Switching: 5-Position Blade
-Pickup Configuration: SSS`,
-        "description": `The Bullet Stratocaster SSS Elecrtric Guitar with tremolo is a simple, affordable, and practical guitar designed for students
-and beginners. It's a great choice for a first guitar, no matter who you are or what style of music you want to learn. These
-models come with all the features that make the Bullet a great guitar to begin with, but also with three exciting finishes
-you cant get on any other bullet.`,
-        "price": "USD: $99.99",
+        "name" : "Body Material: Basswood\n Body Finish: Polyurethane\n Body Shape: Stratocaster\n Neck Material: Rosewood\n Neck Finish: Polyurethane\n Neck Shape: C Shape\n Scale Length: 25.5 inches (648 mm)\n Fingerboard: Maple\n Fingerboard Radius: 9.5 inches (241 mm)\n Number of Frets: 21\n Fret Size: Medium Jumbo\n String Nut: Synthetic Bone\n Nut Width: 1.650 inches (42 mm)\n Position Inlays: Black Dot\n Neck Plate: 4-Bolt Standard\n Bridge Pickup: Standard Single-Coil Strat\n Middle Pickup: Standard Single-Coil Strat\n Neck Pickup: Standard Single-Coil Strat\n Controls: Master Volume, Tone 1 (Neck Pickup), Tone 2 (Middle Pickup)\n Pickup Switching: 5-Position Blade\n Pickup Configuration: SSS",
+        "description": "The Bullet Stratocaster SSS Elecrtric Guitar with tremolo is a simple, affordable, and practical guitar designed for students and beginners. It's a great choice for a first guitar, no matter who you are or what style of music you want to learn. These models come with all the features that make the Bullet a great guitar to begin with, but also with three exciting finishes you cant get on any other bullet.",        "price": "USD: $99.99",
         "amount": 50,
         "image": "./../sources/images/squier.png",
         "status": "new",
@@ -45,30 +20,8 @@ you cant get on any other bullet.`,
         "maker": "Epiphone",
         "model": "Epiphone Les Paul",
         "name": "Epiphone Limited Edition Les Paul Special-I Electric Guitar Worn Cherry",
-        "specs": `Basswood body
-Bolt-on mahogany neck
-Rosewood fretboard
-21 frets
-D-shaped profile
-Epiphone 700T bridge humbucker
-Epiphone 650R neck humbucker
-Master volume, master volume controls
-3-way pickup toggle switch
-Nickel hardware
-Intonated, one-piece wraparound bridge-stopbar
-Coverered, 14:1 diecast tuners
-Polyurethane finish`,
-        "description": `This is a limited edition version of Epiphone's number one selling model available with a choice of worn finishes. The
-Epiphone Ltd Ed Special-I is a great way for beginners to get started on guitar with real Les Paul tone and feel. But seasoned
-pros love the Special-I also because it's a great-sounding, workhorse guitar that lets them leave their more expensive axes at
-home.
-
-The authentic LP power starts with an basswood, trademarked Les Paul body with a bolted-on 1960's SlimTaper„¢
-mahogany neck featuring a 21-fret rosewood fingerboard with dot inlays. The Special-I is voiced by a pair of hot open-coil
-Epiphone 700T and 650R humbucker pickups, giving it massive, unmistakable Les Paul tone. Like all of Epiphone's electric
-guitars, it comes standard-equipped with 500K potentiometers for the master volume and master tone controls, plus
-Epiphone's heavy-duty 3-way pickup selector toggle switch and exclusive non-rotating heavy-duty output jack. This value-
-champ also now features nickel hardware including an intonated, one-piece wraparound bridge-stopbar.`,
+        "specs": "Basswood body\n Bolt-on mahogany neck\n Rosewood fretboard\n 21 frets\n D-shaped profile\n Epiphone 700T bridge humbucker\n Epiphone 650R neck humbucker\n Master volume, master volume controls\n 3-way pickup toggle switch\n Nickel hardware\n Intonated, one-piece wraparound bridge-stopbar\n Coverered, 14:1 diecast tuners\n Polyurethane finish",
+        "description": "This is a limited edition version of Epiphone's number one selling model available with a choice of worn finishes. The Epiphone Ltd Ed Special-I is a great way for beginners to get started on guitar with real Les Paul tone and feel. But seasoned pros love the Special-I also because it's a great-sounding, workhorse guitar that lets them leave their more expensive axes at home. The authentic LP power starts with an basswood, trademarked Les Paul body with a bolted-on 1960's SlimTaper„¢ mahogany neck featuring a 21-fret rosewood fingerboard with dot inlays. The Special-I is voiced by a pair of hot open-coil Epiphone 700T and 650R humbucker pickups, giving it massive, unmistakable Les Paul tone. Like all of Epiphone's electric guitars, it comes standard-equipped with 500K potentiometers for the master volume and master tone controls, plus Epiphone's heavy-duty 3-way pickup selector toggle switch and exclusive non-rotating heavy-duty output jack. This value- champ also now features nickel hardware including an intonated, one-piece wraparound bridge-stopbar.",
         "price": "USD: $149.00",
         "amount": 10,
         "image": "./../sources/images/epiphone.png",
@@ -83,40 +36,8 @@ champ also now features nickel hardware including an intonated, one-piece wrapar
         "maker": "Gibson",
         "model": "Gibson 2016 J-15",
         "name": "Gibson 2016 J-15 Acoustic-Electric Guitar Antique Natural",
-        "specs": `Body Style: J-45 round-shoulder
-Wood: Sitka spruce top, walnut back & sides
-Binding: Mutli-ply top, single-ply back, abalone rosette
-Finish: Antique natural cure textured high-gloss
-Neck: Maple, 1.725 inches tusq nut
-Neck-to-body: Compound dovetail secured with hide glue at the 14th fret
-Bracing: Gibson Standard X
-Fingerboard: 12 inches radius walnut with 1/4 inch mother-of-pearl dot inlay
-Scale: 24-3/4 inches
-Bridge: Rectangular walnut
-Pickguard: Teardrop tortoise
-Tuning Machines: Mini Grovers 14:1
-Strings: Gibson light gauge .012 - .053
-Electronics: L.R. Baggs Element
-100% American-made, handcrafted in Bozeman, Montana`,
-        "description": `The 2016 J-15 features the same round-shoulder body shape of Gibson's J-45, aka 'The Workhorse', an incredibly
-popular acoustic that has been one of Gibson's best-selling guitars since it's introduction in 1942. With it's electronics and
-high-quality body construction, the 2016 J-15 can easily become your new workhorse as it can handle the demands of both intimate
-settings and larger venues.
-
-Handcrafted exclusively at Gibson's Bozeman, Montana facility, this J-15 is all about North American sustainable tonewoods, with a
-Sitka spruce top which provides you with ample velocity, and sustainable American walnut back and sides which possesses some of the
-warmth of rosewood while adding a dash of mahogany's presence, all without the extra weight. This 24.75 in. scale acoustic-electric
-also features a neck-to-body dovetail joint secured with hide glue to ensure the resonance transfer from strings to body stays at a
-premium level throughout the life of the guitar. The 2016 J-15's radiused body with scalloped X-bracing provides the kind of projection
-and clarity that you expect in a more expensive model. The hand-sprayed nitrocellulose lacquer finish not only lets the tone of the
-J-15 to mature with age, but also allows the unique character and beauty of the guitar's woods to shine through.
-
-When it's time to plug in, the 2016 J-15 will spoil your amp and ears even more thanks to L.R. Baggs Element electronics. Unlike
-typical undersaddle acoustic guitar pickups that are dependent on string compression for their sound, the Element was engineered to
-mirror the soundboard's actual movement as you play. At the heart of the pickup, a flexible film sensor only .002 thick picks up the
-guitar's most delicate nuances. Tracking the motion of the top rather than a direct string attack suppresses 'quack' caused by
-compression and unlocks the Element's unrivaled dynamic range. The pickup's minimalist construction lessens any influence on the
-acoustic properties and creates an intimate coupling between the pickup and guitar for the highest fidelity possible.`,
+        "specs": "Body Style: J-45 round-shoulder\n Wood: Sitka spruce top, walnut back & sides\n Binding: Mutli-ply top, single-ply back, abalone rosette\n Finish: Antique natural cure textured high-gloss\n Neck: Maple, 1.725 inches tusq nut\n Neck-to-body: Compound dovetail secured with hide glue at the 14th fret\n Bracing: Gibson Standard X\n Fingerboard: 12 inches radius walnut with 1/4 inch mother-of-pearl dot inlay\n Scale: 24-3/4 inches\n Bridge: Rectangular walnut\n Pickguard: Teardrop tortoise\n Tuning Machines: Mini Grovers 14:1\n Strings: Gibson light gauge .012 - .053\n Electronics: L.R. Baggs Element\n 100% American-made, handcrafted in Bozeman, Montana",
+        "description": "The 2016 J-15 features the same round-shoulder body shape of Gibson's J-45, aka 'The Workhorse', an incredibly popular acoustic that has been one of Gibson's best-selling guitars since it's introduction in 1942. With it's electronics and high-quality body construction, the 2016 J-15 can easily become your new workhorse as it can handle the demands of both intimate settings and larger venues.\n Handcrafted exclusively at Gibson's Bozeman, Montana facility, this J-15 is all about North American sustainable tonewoods, with a Sitka spruce top which provides you with ample velocity, and sustainable American walnut back and sides which possesses some of the warmth of rosewood while adding a dash of mahogany's presence, all without the extra weight. This 24.75 in. scale acoustic-electric also features a neck-to-body dovetail joint secured with hide glue to ensure the resonance transfer from strings to body stays at a premium level throughout the life of the guitar. \n The 2016 J-15's radiused body with scalloped X-bracing provides the kind of projection and clarity that you expect in a more expensive model. The hand-sprayed nitrocellulose lacquer finish not only lets the tone of the J-15 to mature with age, but also allows the unique character and beauty of the guitar's woods to shine through. When it's time to plug in, the 2016 J-15 will spoil your amp and ears even more thanks to L.R. Baggs Element electronics. Unlike typical undersaddle acoustic guitar pickups that are dependent on string compression for their sound, the Element was engineered to mirror the soundboard's actual movement as you play. At the heart of the pickup, a flexible film sensor only .002 thick picks up the guitar's most delicate nuances. Tracking the motion of the top rather than a direct string attack suppresses 'quack' caused by compression and unlocks the Element's unrivaled dynamic range. The pickup's minimalist construction lessens any influence on the acoustic properties and creates an intimate coupling between the pickup and guitar for the highest fidelity possible.",
         "price": "USD: $1,499.00",
         "amount": 1,
         "image": "./../sources/images/gibson.png",
@@ -131,19 +52,8 @@ acoustic properties and creates an intimate coupling between the pickup and guit
         "maker": "Ibanez",
         "model": "Ibanez GSR200",
         "name": "Ibanez GSR200 4-String Electric Bass Flat Walnut Rosewood fretboard",
-        "specs": `Neck type: GSR4 maple neck
-Body: Mahogany body (Basswood body for TR finish)
-Fretboard: Rosewood fretboard with white dot inlay
-Fret: Medium frets
-Number of frets: 22
-Bridge: B10 bridge
-Neck pu: PSNDP neck pickup (Passive)
-Bridge pu: PSNDJ bridge pickup (Passive)
-Equaliser: Phat II EQ
-Hardware color: Chrome`,
-        "description": `A guitar doesn't have to cost a bundle to sound good. The GIO series was developed for players who want
-Ibanez quality in a more affordable package. Not only do they look and play better than everything else in their price range, but
-their rigorous inspection, set-up and warranty is the same as Ibanez's more expensive models.`,
+        "specs": "Neck type: GSR4 maple neck\n Body: Mahogany body (Basswood body for TR finish)\n Fretboard: Rosewood fretboard with white dot inlay\n Fret: Medium frets\n Number of frets: 22\n Bridge: B10 bridge\n Neck pu: PSNDP neck pickup (Passive)\n Bridge pu: PSNDJ bridge pickup (Passive)\n Equaliser: Phat II EQ\n Hardware color: Chrome",
+        "description": "A guitar doesn't have to cost a bundle to sound good. The GIO series was developed for players who want Ibanez quality in a more affordable package. Not only do they look and play better than everything else in their price range, but their rigorous inspection, set-up and warranty is the same as Ibanez's more expensive models.",
         "price": "USD: $199.99",
         "amount": 34,
         "image": "./../sources/images/ibanez.png",
@@ -158,50 +68,7 @@ their rigorous inspection, set-up and warranty is the same as Ibanez's more expe
         "maker": "Yamaha",
         "model": "Yamaha P-45",
         "name": "Yamaha P-45 88-Key Weighted Action Digital Piano Black",
-        "specs": `Keyboard
-Number of keys: 88 Key
-Action: Graded hammer standard (GHS)
-Key size: Full
-Touch Sensitivity: Hard/medium/soft/fixed
-
-Sounds
-Number of voices: 10
-Polyphony (max): 64-note
-Layer/Split: Yes
-
-Connectivity
-AUX input: No
-MIDI Connectivity: MIDI over USB
-Line output: Yes
-USB Connectivity: Yes
-Headphone jacks: 1
-Pedal inputs: 1 (sustain)
-
-Onboard Features
-Recording/Playback Not applicable
-Accompaniment styles: Not applicable
-Preset songs: Not applicable
-Display: None
-Effects: Yes
-Built-in speakers: Yes
-Pitch bend/Modulation: Not applicable
-
-Effects
-Reverb: Yes
-Chorus: Yes
-Delay: No
-Equalizer: No
-Arpeggio: No
-
-Other
-Width: 52.25 in. (1,326mm)
-Height: 6.0 in. (154mm)
-Depth: 11.5 in. (295mm)
-Weight: 25 lb`,
-        "description": `The P-45 is the lowest-cost, 88-note, Graded Hammer Standard weighted action digital piano that Yamaha
-offers. This digital piano has a basic set of features, ideal for the needs of the beginner piano student. It features 88
-blocked-end Graded Hammer Standard weighted keys, built-in speakers and best of all, Yamaha's legendary piano sound. It features a
-complement of other common keyboard timbres as well, including electric pianos, harpsichord and strings.`,
+        "specs": "Keyboard\n Number of keys: 88 Key\n Action: Graded hammer standard (GHS)\n Key size: Full\n Touch Sensitivity: Hard/medium/soft/fixed\n Sounds\n Number of voices: 10\n Polyphony (max): 64-note\n Layer/Split: Yes\n Connectivity\n AUX input: No\n MIDI Connectivity: MIDI over USB\n Line output: Yes\n USB Connectivity: Yes\n Headphone jacks: 1\n Pedal inputs: 1 (sustain)\n Onboard Features\n Recording/Playback Not applicable\n Accompaniment styles: Not applicable\n Preset songs: Not applicable\n Display: None\n Effects: Yes\n Built-in speakers: Yes\n Pitch bend/Modulation: Not applicable\n Effects\n Reverb: Yes\n Chorus: Yes\n Delay: No\n Equalizer: No\n Arpeggio: No\n Other\n Width: 52.25 in. (1,326mm)\n Height: 6.0 in. (154mm)\n Depth: 11.5 in. (295mm)\n Weight: 25 lb",         "description": "The P-45 is the lowest-cost, 88-note, Graded Hammer Standard weighted action digital piano that Yamaha offers. This digital piano has a basic set of features, ideal for the needs of the beginner piano student. It features 88 blocked-end Graded Hammer Standard weighted keys, built-in speakers and best of all, Yamaha's legendary piano sound. It features a complement of other common keyboard timbres as well, including electric pianos, harpsichord and strings.",
         "price": "USD: $449.99",
         "amount": 12,
         "image": "./../sources/images/yamaha.png",
@@ -209,47 +76,14 @@ complement of other common keyboard timbres as well, including electric pianos, 
         "rating": 4.5,
         "onSale": true
     },
-
     {
         "instrument": "Drums",
         "type": "Electric Set",
         "maker": "Simmons",
         "model": "Simmons SD500",
         "name": "Simmons SD500 5-Piece Electronic Drum Set",
-        "specs": `Tom pad(s): 3
-Cymbal pad(s): 3
-Snare pad: 1
-Kickpad: Yes
-Total drum pads: 5
-Country of origin: China
-Module
-Display type: LCD
-Drum kits: 35
-Sounds: 352
-Songs: 60
-Trigger inputs: 12
-Line input: Yes
-Headphone jack: Yes
-USB: Yes
-MP3: Yes
-MIDI: Yes
-Training functions: Yes
-Click: No
-Memory: 64MB
-Pads
-Pad material: Rubber
-Hoop material: Plastic
-Zones: Multiple
-Tom pad size: 8 inches
-Snare pad size: 9 inches
-Hardware
-Rack material: Steel
-Hardware pieces: 3
-Kick pedal: Yes
-Throne: No`,
-        "description": `The Simmons SD500KIT full-sized 5-piece electronic drum kit includes four drum pads, three cymbal pads,
-hi-hat controller and an integrated kick pad/pedal, creating an ultra-realistic drum configuration. With features normally
-reserved for much more expensive kits, the SD500KIT is outstanding for gigging, practicing, recording and learning.`,
+        "specs": "Tom pad(s): 3\n Cymbal pad(s): 3\n Snare pad: 1\n Kickpad: Yes\n Total drum pads: 5\n Country of origin: China\n Module\n Display type: LCD\n Drum kits: 35\n Sounds: 352\n Songs: 60\n Trigger inputs: 12\n Line input: Yes\n Headphone jack: Yes\n USB: Yes\n MP3: Yes\n MIDI: Yes\n Training functions: Yes\n Click: No\n Memory: 64MB\n Pads\n Pad material: Rubber\n Hoop material: Plastic\n Zones: Multiple\n Tom pad size: 8 inches\n Snare pad size: 9 inches\n Hardware\n Rack material: Steel\n Hardware pieces: 3\n Kick pedal: Yes\n Throne: No",
+        "description": "The Simmons SD500KIT full-sized 5-piece electronic drum kit includes four drum pads, three cymbal pads, hi-hat controller and an integrated kick pad/pedal, creating an ultra-realistic drum configuration. With features normally reserved for much more expensive kits, the SD500KIT is outstanding for gigging, practicing, recording and learning.",
         "price": "USD: $399.99",
         "amount": 18,
         "image": "./../sources/images/simmons.png",
@@ -264,31 +98,8 @@ reserved for much more expensive kits, the SD500KIT is outstanding for gigging, 
         "maker": "Pearl",
         "model": "Pearl M-80",
         "name": "Pearl M-80 Snare Drum 10x4 in.",
-        "specs": `Snare Size: 10 x 4 (inches)
-Total Pieces: 1
-Extras
-Case or Bag: Not Applicable
-Stand: Not Applicable
-Shells
-Shell Material: Poplar
-Shell Construction: Multi-Ply
-Shell Thickness (mm): Info Not Available
-Bearing Edge: 45
-Reinforcement Ring: No
-Hardware
-Hardware Material: Steel
-Hoop Type: Triple-flange
-Lugs: Standard
-Throw-Off: Tap-style
-Internal muffler: No
-Snares: Info Not Available
-Other
-Heads: Factory
-Finish Type: Wrap
-Country of Origin: Taiwan`,
-        "description": `The Pearl M-80 snare drum makes an incredible alternate or side snare. This snare offers poplar
-wood construction and a compact 10 x 4 (inches) size for explosive power and projection. The drum offers bright, biting
-tone and mounts to a standard percussion mount or rests on a snare stand.`,
+        "specs": "Snare Size: 10 x 4 (inches)\n Total Pieces: 1\n Extras\n Case or Bag: Not Applicable\n Stand: Not Applicable\n Shells\n Shell Material: Poplar\n Shell Construction: Multi-Ply\n Shell Thickness (mm): Info Not Available\n Bearing Edge: 45\n Reinforcement Ring: No\n Hardware\n Hardware Material: Steel\n Hoop Type: Triple-flange\n Lugs: Standard\n Throw-Off: Tap-style\n Internal muffler: No\n Snares: Info Not Available\n Other\n Heads: Factory\n Finish Type: Wrap\n Country of Origin: Taiwan",
+        "description": "The Pearl M-80 snare drum makes an incredible alternate or side snare. This snare offers poplar wood construction and a compact 10 x 4 (inches) size for explosive power and projection. The drum offers bright, biting tone and mounts to a standard percussion mount or rests on a snare stand.",
         "price": "USD: $59.99",
         "amount": 28,
         "image": "./../sources/images/pearl.png",
@@ -303,18 +114,8 @@ tone and mounts to a standard percussion mount or rests on a snare stand.`,
         "maker": "Vox",
         "model": "Vox Valvetronix VT20X 20W",
         "name": "Vox Valvetronix VT20X 20W 1x8 Guitar Modeling Combo Amp",
-        "specs": `Power: 20 watts
-Speaker: custom VOX 1x8 (inches)
-Enhanced technology from VOX delivers incredible-sounding amp models
-Analog-inspired design utilizes a genuine 12AX7 tube
-Bias Shift and Class features alter the circuit to recreate the response of iconic Class A and Class A/B amps
-12 classic effects including modulation, reverb, delay and more
-USB connectivity and VOX Tone Room software lets you customize and create your own amps and effects`,
-        "description": `As part of the VTX Series, the Valvetronix VT20X is a perfect combination of innovation and tradition.
-These amps combine sophisticated modeling technology with a multi-stage tube pre-amp circuit to reproduce the unique distortion,
-touch sensitivity, and the response that is characteristic of classic tube amps. Its unique modeling algorithm actually recreates
-the analog circuits of some of the most coveted tube amplifiers and allows you to adjust the gain structure and bias of the
-internal tube in real time. Also, when using certain models, the amp can be switched between Class A and Class AB operation.`,
+        "specs": "Power: 20 watts\n Speaker: custom VOX 1x8 (inches)\n Enhanced technology from VOX delivers incredible-sounding amp models\n Analog-inspired design utilizes a genuine 12AX7 tube\n Bias Shift and Class features alter the circuit to recreate the response of iconic Class A and Class A/B amps\n 12 classic effects including modulation, reverb, delay and more\n USB connectivity and VOX Tone Room software lets you customize and create your own amps and effects",
+        "description": "As part of the VTX Series, the Valvetronix VT20X is a perfect combination of innovation and tradition. These amps combine sophisticated modeling technology with a multi-stage tube pre-amp circuit to reproduce the unique distortion, touch sensitivity, and the response that is characteristic of classic tube amps. Its unique modeling algorithm actually recreates the analog circuits of some of the most coveted tube amplifiers and allows you to adjust the gain structure and bias of the internal tube in real time. Also, when using certain models, the amp can be switched between Class A and Class AB operation.",
         "price": "USD: $179.99",
         "amount": 16,
         "image": "./../sources/images/vox.png",
@@ -329,11 +130,8 @@ internal tube in real time. Also, when using certain models, the amp can be swit
         "maker": "Boss",
         "model": "Boss DS-1",
         "name": "Boss DS-1 Distortion Pedal",
-        "specs": `Tone, level, and distortion knobs on face
-Super-tough construction`,
-        "description": `From screaming loud to whisper soft, the Boss DS-1 Distortion Pedal can faithfully reproduce the dynamics
-of your playing style. Level and distortion controls give you complete command of the amount of signal processing. Tone knob lets
-you tailor EQ right on the unit. The Boss DS-1 Distortion Pedal is a tough stompbox that can take whatever your boot can dish out.`,
+        "specs": "Tone, level, and distortion knobs on face\n Super-tough construction",
+        "description": "From screaming loud to whisper soft, the Boss DS-1 Distortion Pedal can faithfully reproduce the dynamics of your playing style. Level and distortion controls give you complete command of the amount of signal processing. Tone knob lets you tailor EQ right on the unit. The Boss DS-1 Distortion Pedal is a tough stompbox that can take whatever your boot can dish out.",
         "price": "USD: $49.00",
         "amount": 25,
         "image": "./../sources/images/boss.png",
