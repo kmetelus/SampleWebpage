@@ -5,7 +5,7 @@
         "maker": "Squier",
         "model": "Squier Bullet Stratocaster",
         "name" : "Squier Bullet Stratocaster SSS Electric Guitar with Tremolo Sea Foam Green",
-        "specs": "Body Material: Basswood
+        "specs": `Body Material: Basswood
 Body Finish: Polyurethane
 Body Shape: Stratocaster
 Neck Material: Rosewood
@@ -25,11 +25,11 @@ Middle Pickup: Standard Single-Coil Strat
 Neck Pickup: Standard Single-Coil Strat
 Controls: Master Volume, Tone 1 (Neck Pickup), Tone 2 (Middle Pickup)
 Pickup Switching: 5-Position Blade
-Pickup Configuration: SSS",
-        "description": "The Bullet Stratocaster SSS Elecrtric Guitar with tremolo is a simple, affordable, and practical guitar designed for students
+Pickup Configuration: SSS`,
+        "description": `The Bullet Stratocaster SSS Elecrtric Guitar with tremolo is a simple, affordable, and practical guitar designed for students
 and beginners. It's a great choice for a first guitar, no matter who you are or what style of music you want to learn. These
 models come with all the features that make the Bullet a great guitar to begin with, but also with three exciting finishes
-you cant get on any other bullet.",
+you cant get on any other bullet.`,
         "price": "USD: $99.99",
         "amount": 50,
         "image": "./../sources/images/squier.png",
@@ -45,7 +45,7 @@ you cant get on any other bullet.",
         "maker": "Epiphone",
         "model": "Epiphone Les Paul",
         "name": "Epiphone Limited Edition Les Paul Special-I Electric Guitar Worn Cherry",
-        "specs": "Basswood body
+        "specs": `Basswood body
 Bolt-on mahogany neck
 Rosewood fretboard
 21 frets
@@ -57,8 +57,8 @@ Master volume, master volume controls
 Nickel hardware
 Intonated, one-piece wraparound bridge-stopbar
 Coverered, 14:1 diecast tuners
-Polyurethane finish",
-        "description": "This is a limited edition version of Epiphone's number one selling model available with a choice of worn finishes. The
+Polyurethane finish`,
+        "description": `This is a limited edition version of Epiphone's number one selling model available with a choice of worn finishes. The
 Epiphone Ltd Ed Special-I is a great way for beginners to get started on guitar with real Les Paul tone and feel. But seasoned
 pros love the Special-I also because it's a great-sounding, workhorse guitar that lets them leave their more expensive axes at
 home.
@@ -68,7 +68,7 @@ mahogany neck featuring a 21-fret rosewood fingerboard with dot inlays. The Spec
 Epiphone 700T and 650R humbucker pickups, giving it massive, unmistakable Les Paul tone. Like all of Epiphone's electric
 guitars, it comes standard-equipped with 500K potentiometers for the master volume and master tone controls, plus
 Epiphone's heavy-duty 3-way pickup selector toggle switch and exclusive non-rotating heavy-duty output jack. This value-
-champ also now features nickel hardware including an intonated, one-piece wraparound bridge-stopbar.",
+champ also now features nickel hardware including an intonated, one-piece wraparound bridge-stopbar.`,
         "price": "USD: $149.00",
         "amount": 10,
         "image": "./../sources/images/epiphone.png",
@@ -83,7 +83,7 @@ champ also now features nickel hardware including an intonated, one-piece wrapar
         "maker": "Gibson",
         "model": "Gibson 2016 J-15",
         "name": "Gibson 2016 J-15 Acoustic-Electric Guitar Antique Natural",
-        "specs": "Body Style: J-45 round-shoulder
+        "specs": `Body Style: J-45 round-shoulder
 Wood: Sitka spruce top, walnut back & sides
 Binding: Mutli-ply top, single-ply back, abalone rosette
 Finish: Antique natural cure textured high-gloss
@@ -97,8 +97,8 @@ Pickguard: Teardrop tortoise
 Tuning Machines: Mini Grovers 14:1
 Strings: Gibson light gauge .012 - .053
 Electronics: L.R. Baggs Element
-100% American-made, handcrafted in Bozeman, Montana",
-        "description": "The 2016 J-15 features the same round-shoulder body shape of Gibson's J-45, aka 'The Workhorse', an incredibly
+100% American-made, handcrafted in Bozeman, Montana`,
+        "description": `The 2016 J-15 features the same round-shoulder body shape of Gibson's J-45, aka 'The Workhorse', an incredibly
 popular acoustic that has been one of Gibson's best-selling guitars since it's introduction in 1942. With it's electronics and
 high-quality body construction, the 2016 J-15 can easily become your new workhorse as it can handle the demands of both intimate
 settings and larger venues.
@@ -116,7 +116,7 @@ typical undersaddle acoustic guitar pickups that are dependent on string compres
 mirror the soundboard's actual movement as you play. At the heart of the pickup, a flexible film sensor only .002 thick picks up the
 guitar's most delicate nuances. Tracking the motion of the top rather than a direct string attack suppresses 'quack' caused by
 compression and unlocks the Element's unrivaled dynamic range. The pickup's minimalist construction lessens any influence on the
-acoustic properties and creates an intimate coupling between the pickup and guitar for the highest fidelity possible.",
+acoustic properties and creates an intimate coupling between the pickup and guitar for the highest fidelity possible.`,
         "price": "USD: $1,499.00",
         "amount": 1,
         "image": "./../sources/images/gibson.png",
@@ -131,7 +131,7 @@ acoustic properties and creates an intimate coupling between the pickup and guit
         "maker": "Ibanez",
         "model": "Ibanez GSR200",
         "name": "Ibanez GSR200 4-String Electric Bass Flat Walnut Rosewood fretboard",
-        "specs": "Neck type: GSR4 maple neck
+        "specs": `Neck type: GSR4 maple neck
 Body: Mahogany body (Basswood body for TR finish)
 Fretboard: Rosewood fretboard with white dot inlay
 Fret: Medium frets
@@ -140,10 +140,10 @@ Bridge: B10 bridge
 Neck pu: PSNDP neck pickup (Passive)
 Bridge pu: PSNDJ bridge pickup (Passive)
 Equaliser: Phat II EQ
-Hardware color: Chrome",
-        "description": "A guitar doesn't have to cost a bundle to sound good. The GIO series was developed for players who want
+Hardware color: Chrome`,
+        "description": `A guitar doesn't have to cost a bundle to sound good. The GIO series was developed for players who want
 Ibanez quality in a more affordable package. Not only do they look and play better than everything else in their price range, but
-their rigorous inspection, set-up and warranty is the same as Ibanez's more expensive models.",
+their rigorous inspection, set-up and warranty is the same as Ibanez's more expensive models.`,
         "price": "USD: $199.99",
         "amount": 34,
         "image": "./../sources/images/ibanez.png",
@@ -158,7 +158,7 @@ their rigorous inspection, set-up and warranty is the same as Ibanez's more expe
         "maker": "Yamaha",
         "model": "Yamaha P-45",
         "name": "Yamaha P-45 88-Key Weighted Action Digital Piano Black",
-        "specs": "Keyboard
+        "specs": `Keyboard
 Number of keys: 88 Key
 Action: Graded hammer standard (GHS)
 Key size: Full
@@ -197,11 +197,11 @@ Other
 Width: 52.25 in. (1,326mm)
 Height: 6.0 in. (154mm)
 Depth: 11.5 in. (295mm)
-Weight: 25 lb",
-        "description": "The P-45 is the lowest-cost, 88-note, Graded Hammer Standard weighted action digital piano that Yamaha
+Weight: 25 lb`,
+        "description": `The P-45 is the lowest-cost, 88-note, Graded Hammer Standard weighted action digital piano that Yamaha
 offers. This digital piano has a basic set of features, ideal for the needs of the beginner piano student. It features 88
 blocked-end Graded Hammer Standard weighted keys, built-in speakers and best of all, Yamaha's legendary piano sound. It features a
-complement of other common keyboard timbres as well, including electric pianos, harpsichord and strings.",
+complement of other common keyboard timbres as well, including electric pianos, harpsichord and strings.`,
         "price": "USD: $449.99",
         "amount": 12,
         "image": "./../sources/images/yamaha.png",
@@ -216,7 +216,7 @@ complement of other common keyboard timbres as well, including electric pianos, 
         "maker": "Simmons",
         "model": "Simmons SD500",
         "name": "Simmons SD500 5-Piece Electronic Drum Set",
-        "specs": "Tom pad(s): 3
+        "specs": `Tom pad(s): 3
 Cymbal pad(s): 3
 Snare pad: 1
 Kickpad: Yes
@@ -246,10 +246,10 @@ Hardware
 Rack material: Steel
 Hardware pieces: 3
 Kick pedal: Yes
-Throne: No",
-        "description": "The Simmons SD500KIT full-sized 5-piece electronic drum kit includes four drum pads, three cymbal pads,
+Throne: No`,
+        "description": `The Simmons SD500KIT full-sized 5-piece electronic drum kit includes four drum pads, three cymbal pads,
 hi-hat controller and an integrated kick pad/pedal, creating an ultra-realistic drum configuration. With features normally
-reserved for much more expensive kits, the SD500KIT is outstanding for gigging, practicing, recording and learning.",
+reserved for much more expensive kits, the SD500KIT is outstanding for gigging, practicing, recording and learning.`,
         "price": "USD: $399.99",
         "amount": 18,
         "image": "./../sources/images/simmons.png",
@@ -264,7 +264,7 @@ reserved for much more expensive kits, the SD500KIT is outstanding for gigging, 
         "maker": "Pearl",
         "model": "Pearl M-80",
         "name": "Pearl M-80 Snare Drum 10x4 in.",
-        "specs": "Snare Size: 10 x 4 (inches)
+        "specs": `Snare Size: 10 x 4 (inches)
 Total Pieces: 1
 Extras
 Case or Bag: Not Applicable
@@ -285,10 +285,10 @@ Snares: Info Not Available
 Other
 Heads: Factory
 Finish Type: Wrap
-Country of Origin: Taiwan",
-        "description": "The Pearl M-80 snare drum makes an incredible alternate or side snare. This snare offers poplar
+Country of Origin: Taiwan`,
+        "description": `The Pearl M-80 snare drum makes an incredible alternate or side snare. This snare offers poplar
 wood construction and a compact 10 x 4 (inches) size for explosive power and projection. The drum offers bright, biting
-tone and mounts to a standard percussion mount or rests on a snare stand.",
+tone and mounts to a standard percussion mount or rests on a snare stand.`,
         "price": "USD: $59.99",
         "amount": 28,
         "image": "./../sources/images/pearl.png",
@@ -303,18 +303,18 @@ tone and mounts to a standard percussion mount or rests on a snare stand.",
         "maker": "Vox",
         "model": "Vox Valvetronix VT20X 20W",
         "name": "Vox Valvetronix VT20X 20W 1x8 Guitar Modeling Combo Amp",
-        "specs": "Power: 20 watts
+        "specs": `Power: 20 watts
 Speaker: custom VOX 1x8 (inches)
 Enhanced technology from VOX delivers incredible-sounding amp models
 Analog-inspired design utilizes a genuine 12AX7 tube
 Bias Shift and Class features alter the circuit to recreate the response of iconic Class A and Class A/B amps
 12 classic effects including modulation, reverb, delay and more
-USB connectivity and VOX Tone Room software lets you customize and create your own amps and effects",
-        "description": "As part of the VTX Series, the Valvetronix VT20X is a perfect combination of innovation and tradition.
+USB connectivity and VOX Tone Room software lets you customize and create your own amps and effects`,
+        "description": `As part of the VTX Series, the Valvetronix VT20X is a perfect combination of innovation and tradition.
 These amps combine sophisticated modeling technology with a multi-stage tube pre-amp circuit to reproduce the unique distortion,
 touch sensitivity, and the response that is characteristic of classic tube amps. Its unique modeling algorithm actually recreates
 the analog circuits of some of the most coveted tube amplifiers and allows you to adjust the gain structure and bias of the
-internal tube in real time. Also, when using certain models, the amp can be switched between Class A and Class AB operation.",
+internal tube in real time. Also, when using certain models, the amp can be switched between Class A and Class AB operation.`,
         "price": "USD: $179.99",
         "amount": 16,
         "image": "./../sources/images/vox.png",
@@ -329,11 +329,11 @@ internal tube in real time. Also, when using certain models, the amp can be swit
         "maker": "Boss",
         "model": "Boss DS-1",
         "name": "Boss DS-1 Distortion Pedal",
-        "specs": "Tone, level, and distortion knobs on face
-Super-tough construction",
-        "description": "From screaming loud to whisper soft, the Boss DS-1 Distortion Pedal can faithfully reproduce the dynamics
+        "specs": `Tone, level, and distortion knobs on face
+Super-tough construction`,
+        "description": `From screaming loud to whisper soft, the Boss DS-1 Distortion Pedal can faithfully reproduce the dynamics
 of your playing style. Level and distortion controls give you complete command of the amount of signal processing. Tone knob lets
-you tailor EQ right on the unit. The Boss DS-1 Distortion Pedal is a tough stompbox that can take whatever your boot can dish out.",
+you tailor EQ right on the unit. The Boss DS-1 Distortion Pedal is a tough stompbox that can take whatever your boot can dish out.`,
         "price": "USD: $49.00",
         "amount": 25,
         "image": "./../sources/images/boss.png",
