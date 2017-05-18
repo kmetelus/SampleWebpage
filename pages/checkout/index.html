@@ -248,49 +248,21 @@
 
       <div class="row" id="main">
         <div class="row" id="item-name"></div>
-        <div class="col-xs-9" id="info">
-          <div class="col-xs-6">
-            <div class="row" id="item-image"></div>
-            <div class="row" id="rating">
-              <div class="rating-select">
-                <div class="btn btn-default btn-sm"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div>
-                <div class="btn btn-default btn-sm"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div>
-                <div class="btn btn-default btn-sm"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div>
-                <div class="btn btn-default btn-sm"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div>
-                <div class="btn btn-default btn-sm"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div>
-              </div>
-            </div>
-            <div class="row" id="item-description"></div>
-          </div>
-          <div class="col-xs-3" id="cost-info">
-            <div class="row" id="item-price"></div>
-            <div class="row">
-              <div>
-                <p>Quantity:</p><input type="number" id="replyNumber" min="1" data-bind="value:replyNumber" value="1"/>
-              </div>
-            </div>
 
-            <!-- Add to Cart button -->
-
-            <div class="row"><button onclick="addToCart();" id="addToCartButton">Add To Cart</button></div>
-
-          </div>
-        </div>
-
-        <div class="col-xs-3" id="cart">
+        <div class="col-xs-12" id="cart">
           <div class="panel-group" id="accordion">
             <div class="panel panel-default">
               <div class="panel-heading cart-heading">
                 <h4 class="panel-title">
                   <i class="glyphicon glyphicon-shopping-cart"></i>
-                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseCart">View Shopping Cart</a>
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseCart">Shopping Cart</a>
                 </h4>
               </div>
               <div id="collapseCart" class="panel-collapse collapse in">
           			<div class="panel-body" id="cart-content">
                   <div class="row" id="items-in-cart"></div>
                   <div class="row"><p class="cart-cost">Total Cost = $0</p></div>
-                  <div class="row" id="checkout-link"><a href="./../checkout/index.html">Checkout</a></div>
+                  <div class="row" id="purchase-link"><a href="./payment/index.html">Purchase</a></div>
                 </div>
               </div>
             </div>
@@ -342,22 +314,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript" src="./../../sources/data/inventory.json"></script>
-    <script type="text/javascript" src="./../../js/item-page.js"></script>
-    <script type="text/javascript" src="./../../js/rating.js"></script>
 
-    <script>window.FillInfo.init("Squier Bullet Stratocaster SSS Electric Guitar with Tremolo Sea Foam Green")</script>
 
-<!-- Add to Cart Function -->
-    <script>
-    $("input#replyNumber").keyup(() => {
-        $("input#replyNumber").val($(this).val());
-    });
-    let addToCart = () => {
-        console.log($(".priceOfItem").text());
-        $("#items-in-cart").append("<div class='elem'>" + $("#item-name").text() + "</div>");
-        $(".cart-cost").text("Total Cost = $" + parseFloat(Math.round(($("input#replyNumber").val() * $(".priceOfItem").text()) * 100 ) / 100).toFixed(2));
-        $(".cart-cost")
-    }
-    </script>
   </body>
 </html>
