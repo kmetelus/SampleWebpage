@@ -31,3 +31,29 @@ h2 {
   margin-left: 95px;
   margin-bottom: 25px;
 }
+
+#cost-info {
+  background-color: #fff;
+  border: solid 2px;
+  text-align: center;
+}
+
+#item-price {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#addToCartButton {
+  text-align: center;
+}
+
+#replyNumber {
+  max-width: 50px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+#addToCartButton {
+  padding: 10px;
+  margin-bottom: 20px;
+}

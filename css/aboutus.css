@@ -15,6 +15,10 @@
   border: solid 1px;
 }
 
+#AboutUs > div > div > div> ul > li {
+  margin-bottom: 10px;
+}
+
 #AboutUs > #contact > .list > li {
   padding: 10px;
 }

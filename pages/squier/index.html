@@ -48,7 +48,7 @@
                 <!-- Search Bar -->
                 <form class="navbar-form" role="search">
                   <div class="input-group">
-                      <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+                      <input type="text" class="form-control" placeholder="TODO" name="srch-term" id="srch-term">
                       <div class="input-group-btn">
                           <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
                       </div>
@@ -66,7 +66,6 @@
             								Login via
             								<div class="social-buttons">
             									<a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
-            									<a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
             								</div>
                                             or
             								 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
@@ -77,7 +76,7 @@
             										<div class="form-group">
             											 <label class="sr-only" for="exampleInputPassword2">Password</label>
             											 <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
-                                                         <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+                                                         <div class="help-block text-right"><a href="">Forgot password ?</a></div>
             										</div>
             										<div class="form-group">
             											 <button type="submit" class="btn btn-primary btn-block">Sign in</button>
@@ -264,8 +263,17 @@
             <div class="row" id="item-description"></div>
           </div>
           <div class="col-xs-3" id="cost-info">
-            <div class="row" id="price"></div>
-            <div class="row"></div>
+            <div class="row" id="item-price"></div>
+            <div class="row">
+              <div>
+                <p>Quantity:</p><input type="number" id="replyNumber" min="1" data-bind="value:replyNumber" value="1"/>
+              </div>
+            </div>
+
+            <!-- Add to Cart button -->
+
+            <div class="row"><button onclick="addToCart();" id="addToCartButton">Add To Cart</button></div>
+
           </div>
         </div>
 
@@ -279,7 +287,10 @@
                 </h4>
               </div>
               <div id="collapseCart" class="panel-collapse collapse in">
-                <div class="panel-body" id="cart-content">Cart is Empty</div>
+          			<div class="panel-body" id="cart-content">
+                  <div class="row" id="items-in-cart"></div>
+                  <div class="row"><p class="cart-cost">Total Cost = $0</p></div>
+                </div>
               </div>
             </div>
           </div>
@@ -310,10 +321,10 @@
             <div class="col-xs-4" id="socialmedia">
               <h1>Connect With Us</h1>
               <ul class="list-inline">
-                <li><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></li>
-                <li><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></li>
-                <li><i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i></li>
-                <li><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a></li>
+                <li><a href="https://plus.google.com" target="_blank"><i class="fa fa-google-plus-square fa-3x" aria-hidden="true"></i></a></li>
+                <li><a href="https://instagram.com" target="_blank"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a></li>
               </ul>
             </div>
           </div>
@@ -334,5 +345,17 @@
     <script type="text/javascript" src="./../../js/rating.js"></script>
 
     <script>window.FillInfo.init("Squier Bullet Stratocaster SSS Electric Guitar with Tremolo Sea Foam Green")</script>
+
+<!-- Add to Cart Function -->
+    <script>
+    $("input#replyNumber").keyup(() => {
+        $("input#replyNumber").val($(this).val());
+    });
+    let addToCart = () => {
+        console.log($(".priceOfItem").text());
+        $("#items-in-cart").append("<div class='elem'>" + $("#item-name").text() + "</div>");
+        $(".cart-cost").text("Total Cost = $" + parseFloat(Math.round(($("input#replyNumber").val() * $(".priceOfItem").text()) * 100 ) / 100).toFixed(2));
+    }
+    </script>
   </body>
 </html>
