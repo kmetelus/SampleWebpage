@@ -1,0 +1,26 @@
+#AboutUs {
+  margin-top: 100px !important;
+  margin-bottom: 25px;
+  padding-top: 20px;
+  position: static;
+  width: 100%;
+  text-align: center;
+  background-color: #333 !important;
+  color: #ffffff;
+  list-style-type: none;
+  letter-spacing: 2px;
+}
+
+#AboutUs > div > div > div> h1 {
+  border: solid 1px;
+}
+
+#AboutUs > #contact > .list > li {
+  padding: 10px;
+}
+
+#AboutUs > div > div > img {
+  width: 100%;
+  padding: 10px;
+  padding-top: 25px;
+}

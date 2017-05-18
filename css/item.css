@@ -1,7 +1,29 @@
 .item {
+  border: solid 2px;
+  max-width: 150px;
+  width: 150px;
+  max-height: 300px;
+  height: 300px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.item-image {
   display: block;
-  max-height: 260px;
-  height: 260px;
-  max-width: 260px;
-  width: 260px;
+  border: solid 1px;
+  max-height: 150px;
+  height: 150px;
+  max-width: 137px;
+  width: 150px;
+  padding: 1px;
+  margin-right:80px;
+}
+.item-name {
+  text-align: center;
+  max-height: 100px;
+  height: 100px;
+}
+.item-price {
+  border: solid 1px;
+  text-align: center;
 }

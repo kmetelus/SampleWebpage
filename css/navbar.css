@@ -1,9 +1,18 @@
-/*#exTab3 .tab-content {
-  color : white;
-  background-color: #428bca;
-  padding : 5px 15px;
-}*/
+nav {
+  background-color: #333 !important;
+  padding-bottom: 5px;
+}
 
-div, nav {
-  background-color: #efefef;
+#main {
+  padding-top: 70px;
+}
+
+.navelem {
+  color: #ffffff !important;
+  letter-spacing: 1px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    border: solid 2px;
+    background-color: #ff3b3f !important;
 }

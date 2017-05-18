@@ -1,0 +1,11 @@
+body {
+  margin-top: 25px;
+  background-color: #efefef;
+  font-family: "Verdana", serif;
+}
+
+#hub > .header {
+  text-align: center;
+  border-bottom: solid 1px;
+  margin-bottom: 5px;
+}
