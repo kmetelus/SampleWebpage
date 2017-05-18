@@ -8,11 +8,11 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./../css/page.css">
-    <link rel="stylesheet" type="text/css" href="./../css/AboutUs.css">
-    <link rel="stylesheet" type="text/css" href="./../css/navbar.css">
-    <link rel="stylesheet" type="text/css" href="./../css/item.css">
-    <link rel="stylesheet" type="text/css" href="./../css/shoppingcart.css">
+    <link rel="stylesheet" type="text/css" href="./../../css/page.css">
+    <link rel="stylesheet" type="text/css" href="./../../css/AboutUs.css">
+    <link rel="stylesheet" type="text/css" href="./../../css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="./../../css/item-page.css">
+    <link rel="stylesheet" type="text/css" href="./../../css/shoppingcart.css">
     <script src="https://use.fontawesome.com/40a3622831.js"></script>
 
   </head>
@@ -24,7 +24,7 @@
         <nav class="navbar navbar-inverse navbar-fixed-top">
           <div class="container-fluid">
             <div class="navbar-header">
-              <a class="navbar-brand" href="#"><img alt="Brand" src="./../sources/images/logo.png"</a>
+              <a class="navbar-brand" href="#"><img alt="Brand" src="./../../sources/images/logo.png"</a>
             </div>
 
             <!-- Options -->
@@ -32,7 +32,7 @@
               <ul class="nav navbar-nav">
                 <!-- Home tab -->
                   <li class="active">
-                    <a class="navelem" href="#1a" data-toggle="tab">Home</a>
+                    <a class="navelem" href="./../../index.html">Home</a>
             			</li>
                 <!-- Instruments tab -->
             			<li><a class="navelem" href="#2a" data-toggle="tab">Instruments</a>
@@ -55,9 +55,47 @@
                   </div>
                 </form>
               </ul>
+
               <ul class="nav navbar-nav navbar-right">
-                <li><a class="navelem" href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                <li><a class="navelem" href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle navelem" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+            			<ul id="login-dp" class="dropdown-menu">
+            				<li>
+            					 <div class="row">
+            							<div class="col-md-12">
+            								Login via
+            								<div class="social-buttons">
+            									<a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+            									<a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+            								</div>
+                                            or
+            								 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+            										<div class="form-group">
+            											 <label class="sr-only" for="exampleInputEmail2">Email address</label>
+            											 <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+            										</div>
+            										<div class="form-group">
+            											 <label class="sr-only" for="exampleInputPassword2">Password</label>
+            											 <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                                         <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+            										</div>
+            										<div class="form-group">
+            											 <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+            										</div>
+            										<div class="checkbox">
+            											 <label>
+            											 <input type="checkbox"> Keep me logged-in
+            											 </label>
+            										</div>
+            								 </form>
+            							</div>
+            							<div class="bottom text-center">
+            								New here ? <a href="#"><b>Join Us</b></a>
+            							</div>
+            					 </div>
+            				</li>
+            			</ul>
+                </li>
               </ul>
             </div>
 
@@ -210,41 +248,45 @@
       </div>
 
       <div class="row" id="main">
-        <div class="col-xs-2" id="refine">
-          <div class="panel-group" id="accordion">
-          	<div class="panel panel-default">
-          		<div class="panel-heading cart-heading">
-          			<h4 class="panel-title">
-          				<a data-toggle="collapse" data-parent="#accordion" href="#refinement">Refine Search</a>
-          			</h4>
-          		</div>
-      		    <div id="refinement" class="panel-collapse collapse in">
-          			<div class="panel-body" id="refinement-options">idk yet</div>
+        <div class="row" id="item-name"></div>
+        <div class="col-xs-9" id="info">
+          <div class="col-xs-6">
+            <div class="row" id="item-image"></div>
+            <div class="row" id="rating">
+              <div class="rating-select">
+                <div class="btn btn-default btn-sm"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div>
+                <div class="btn btn-default btn-sm"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div>
+                <div class="btn btn-default btn-sm"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div>
+                <div class="btn btn-default btn-sm"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div>
+                <div class="btn btn-default btn-sm"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div>
               </div>
             </div>
+            <div class="row" id="item-description"></div>
           </div>
-        </div>
-
-        <div class="col-xs-7 result-container" id="hub">
-          <div class="row header"><h1>Featured Items</h1></div>
+          <div class="col-xs-3" id="cost-info">
+            <div class="row" id="price"></div>
+            <div class="row"></div>
+          </div>
         </div>
 
         <div class="col-xs-3" id="cart">
           <div class="panel-group" id="accordion">
-          	<div class="panel panel-default">
-          		<div class="panel-heading cart-heading">
-          			<h4 class="panel-title">
+            <div class="panel panel-default">
+              <div class="panel-heading cart-heading">
+                <h4 class="panel-title">
                   <i class="glyphicon glyphicon-shopping-cart"></i>
-          				<a data-toggle="collapse" data-parent="#accordion" href="#collapseCart">View Shopping Cart</a>
-          			</h4>
-          		</div>
-      		    <div id="collapseCart" class="panel-collapse collapse in">
-          			<div class="panel-body" id="cart-content">Cart is Empty</div>
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseCart">View Shopping Cart</a>
+                </h4>
+              </div>
+              <div id="collapseCart" class="panel-collapse collapse in">
+                <div class="panel-body" id="cart-content">Cart is Empty</div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div class="row"></div>
 
       <div class="row" id="AboutUs">
         <div class="col-xs-12">
@@ -278,19 +320,19 @@
         </div>
         <div class="row">
           <div class="col-xs-12">
-            <img src="./../sources/images/banner.jpg"></img>
+            <img src="./../../sources/images/banner.jpg"></img>
           </div>
         </div>
       </div>
     </div>
 
-
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="./../sources/data/inventory.json"></script>
-    <script type="text/javascript" src="./../js/main.js"></script>
+    <script type="text/javascript" src="./../../sources/data/inventory.json"></script>
+    <script type="text/javascript" src="./../../js/item-page.js"></script>
+    <script type="text/javascript" src="./../../js/rating.js"></script>
 
-    <script>window.Select.init()</script>
+    <script>window.FillInfo.init("Squier Bullet Stratocaster SSS Electric Guitar with Tremolo Sea Foam Green")</script>
   </body>
 </html>

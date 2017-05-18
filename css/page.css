@@ -2,6 +2,7 @@ body {
   margin-top: 25px;
   background-color: #efefef;
   font-family: "Verdana", serif;
+  background: url('./../sources/images/wallpaper.jpg');
 }
 
 #hub > .header {

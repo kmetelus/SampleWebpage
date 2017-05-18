@@ -1,5 +1,9 @@
 .panel-default > .panel-heading {
   color: #fff;
   background-color: #36454f;
-  border-color: #333 !important;
+}
+
+.panel-default {
+  border: solid 1px;
+  border-color: #000 !important;
 }
